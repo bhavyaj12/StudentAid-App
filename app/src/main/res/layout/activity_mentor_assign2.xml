@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mentorassign">
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="364dp"
+        android:layout_height="275dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:focusable="false"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:longClickable="false"
+        android:text="MENTORSHIP DETAILS:- \n\nYour mentor details are given below.
+A mentor will be your senior who can guide you through your academic year
+and help you out with your class doubts and placement doubts."
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="350dp"
+        android:textSize="30dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+
+        />
+
+
+</RelativeLayout>
